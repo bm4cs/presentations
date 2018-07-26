@@ -29,37 +29,71 @@
 			<section>
 				<h2>Docker</h2>
 			</section>
+
 			<section>
 				<h2>Huh?</h2>
 				<img src="img/docker.png" width="700px" />
 			</section>
+
 			<section>
-					<h2>Containers</h2>
-					<img src="img/container.jpg" width="700px" />
-				</section>
+				<h2>Containers</h2>
+				<img src="img/container.jpg" width="700px" />
+			</section>
+
 			<section>
-				<h2>Docker Primitives</h2>
+				<!-- <h2>Containers</h2> -->
+				<img src="img/docker-architecture.svg" width="800px" />
+			</section>
+
+			<section>
+				<h2>Kernel Primitives</h2>
 				<ul>
-					<li>Namespaces - control what a process can see</li>
-					<li>CGroups - control what a process can do</li>
-					<li>CoW and layered FS - fast provisioning</li>
-					<li>LSM - AppArmor, SELinux, Seccomp, NoNewPrivs</li>
+					<li>namespaces - control what a process can see</li>
+					<li>cgroups - control what a process can do</li>
+					<li>LSM - AppArmor, SELinux, Capabilities, Seccomp</li>
 				</ul>
 			</section>
+			
 			<section>
 				<h2>It Works</h2>
 				<img src="img/worksonmymachine.jpg" width="500px" />
 			</section>
+
+			<section>
+				<h2>Docker Hub</h2>
+				<img src="img/docker-hub.png" width="800px" />
+			</section>
+
 			<section data-background-image="img/shiny.gif">
 				<h2>Containers for all!</h2>
 			</section>
 
 			<section>
-				<h2>Docker Hub</h2>
+				<!-- <h2>Docker Hub</h2> -->
+				<ul>
+					<li>"put your apps in a container!" they said</li>
+					<li>"devs can manage them!" they said</li>
+					<li>"super easy!" they said</li>
+				</ul>
+				<img src="img/docker-burning.jpg" width="500px" />
 			</section>
 
+
+
 			<section>
-				<h2>Devs in control</h2>
+				<h2>Container Breakouts</h2>
+				<img src="img/docker-breakout.png" width="700px" />
+			</section>
+
+
+			<section>
+				<h2>Final Thoughts</h2>
+				<ul>
+					<li>Increased productivity at the cost of complexity and security?</li>
+					<li>Is DockerHub a convenient malware distribution channel?</li>
+					<li>Thousands of small containers talking to each other - more attack surface?</li>
+					<li>Patch hell - what versions of software is running in these things? Old vulns = exploitation opportunities</li>
+				</ul>
 			</section>
 
 		</div>
